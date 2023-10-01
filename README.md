@@ -1,8 +1,8 @@
 # Wordle Clone App
 
 In this assignment, I created a Wordle game with HTML, CSS, and JavaScript
+NOTE: This project was simple so was not deployed using Netlify, refer to SAMPLE below
 
-NOTE: This project was simple so was not deployed using Netlify
 ---
 
 Sample:
