@@ -17,31 +17,7 @@ Sample:
 ---
 
 ## :page_with_curl: Notes
-- The page reads a dictionary of words from this endpoint: `https://api.masoudkf.com/v1/wordle`. The endpoint requires an API key (`sw0Tr2othT1AyTQtNDUE06LqMckbTiKWaVYhuirv`). Used `fetch` and added the key like the following:
-    ```js
-    const res = await fetch("https://api.masoudkf.com/v1/wordle", {
-        headers: {
-        "x-api-key": "sw0Tr2othT1AyTQtNDUE06LqMckbTiKWaVYhuirv",
-        },
-    });
-  ```
-- Here's a sample response of what the endpoint returns. It returns a `JSON` object
 
-    ```json
-    {
-    "statusCode": 200,
-    "dictionary": [
-        {
-            "word": "Pain",
-            "hint": "Attending any class other than ENSF 381 gives you ____"
-        },
-        {
-            "word": "Nerd",
-            "hint": "You may be considered one, if you like Star Trek"
-        }
-        ]
-    }
-    ```
 - Unlike the original Wordle game, it does not check if the word exists in the dictionary
 - The `Start Over` button becomes `disabled` while the code is getting the dictionary from the endpoint for the first time, and say `Loading...`
 - Captures key events from the user and populate the boxes
