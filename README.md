@@ -1,11 +1,12 @@
 # Wordle Clone App
-Sample:
-![Imgur](https://i.imgur.com/VmHP3up.png)
 
 In this assignment, I created a Wordle game with HTML, CSS, and JavaScript
 
 NOTE: This project was simple so was not deployed using Netlify
 ---
+
+Sample:
+![Imgur](https://i.imgur.com/VmHP3up.png)
 
 ## 📝 Details
 
