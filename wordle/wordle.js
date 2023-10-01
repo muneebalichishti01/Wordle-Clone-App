@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   var getServer_dict = async () => {
     let res = await fetch("https://api.masoudkf.com/v1/wordle", {
       headers: {
-        "x-api-key": "sw0Tr2othT1AyTQtNDUE06LqMckbTiKWaVYhuirv",
+        "x-api-key": "INSERT_API", //removed because of safety reasons
       },
     });
 
